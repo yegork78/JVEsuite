@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{EAD0D695-F8FF-4112-9C16-58EAE063B47F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="dclJVEsoft.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JVEsoft.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="dclJVEsoft">
+        <MSBuild Projects="dclJVEsoft.dproj"/>
+    </Target>
+    <Target Name="dclJVEsoft:Clean">
+        <MSBuild Projects="dclJVEsoft.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclJVEsoft:Make">
+        <MSBuild Projects="dclJVEsoft.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JVEsoft">
+        <MSBuild Projects="JVEsoft.dproj"/>
+    </Target>
+    <Target Name="JVEsoft:Clean">
+        <MSBuild Projects="JVEsoft.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JVEsoft:Make">
+        <MSBuild Projects="JVEsoft.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="dclJVEsoft;JVEsoft"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="dclJVEsoft:Clean;JVEsoft:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="dclJVEsoft:Make;JVEsoft:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

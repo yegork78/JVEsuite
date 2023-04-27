@@ -1,0 +1,55 @@
+object JVEFormShade: TJVEFormShade
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = Designed
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnPaint = FormPaint
+  DesignerMasterStyle = 0
+  object Shade: TRectangle
+    Align = Client
+    Fill.Color = x80000000
+    Opacity = 0.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = ShadeClick
+    object Animation: TFloatAnimation
+      Duration = 0.250000000000000000
+      OnFinish = AnimationFinish
+      PropertyName = 'Opacity'
+      StartValue = 0.000000000000000000
+      StopValue = 1.000000000000000000
+    end
+    object Layout: TJVELayout
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 480.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Columns = <
+        item
+          Divider = True
+        end
+        item
+        end
+        item
+          Divider = True
+        end>
+      Rows = <
+        item
+          Divider = True
+        end
+        item
+        end
+        item
+          Divider = True
+        end>
+    end
+  end
+end

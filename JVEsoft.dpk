@@ -1,0 +1,65 @@
+package JVEsoft;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'JVEsoft Cross Platform Infrastructure Component Suite'}
+{$LIBSUFFIX '270'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  fmx;
+
+contains
+  JVE.Actions in 'JVE.Actions.pas',
+  JVE.AdMob in 'JVE.AdMob.pas',
+  JVE.Analytics in 'JVE.Analytics.pas',
+  JVE.Analytics.Common in 'JVE.Analytics.Common.pas',
+  JVE.AppStore in 'JVE.AppStore.pas',
+  JVE.Banners in 'JVE.Banners.pas',
+  JVE.Browser in 'JVE.Browser.pas',
+  JVE.ChartBoost in 'JVE.ChartBoost.pas',
+  JVE.Configuration in 'JVE.Configuration.pas',
+  JVE.Email in 'JVE.Email.pas',
+  JVE.Facebook in 'JVE.Facebook.pas',
+  JVE.Interstitials in 'JVE.Interstitials.pas' {JVEFormInterstitials},
+  JVE.Layout in 'JVE.Layout.pas',
+  JVE.Messaging in 'JVE.Messaging.pas',
+  JVE.MobFox in 'JVE.MobFox.pas',
+  JVE.Native in 'JVE.Native.pas',
+  JVE.OpenURL in 'JVE.OpenURL.pas',
+  JVE.Payment in 'JVE.Payment.pas',
+  JVE.PubNative in 'JVE.PubNative.pas',
+  JVE.Pushes in 'JVE.Pushes.pas',
+  JVE.PushWoosh in 'JVE.PushWoosh.pas',
+  JVE.Social in 'JVE.Social.pas',
+  JVE.Shade in 'JVE.Shade.pas' {JVEFormShade},
+  JVE.Utils in 'JVE.Utils.pas',
+  JVE.Mac.CodeBlocks in 'JVE.Mac.CodeBlocks.pas';
+
+end.
+

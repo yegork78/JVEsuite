@@ -1,0 +1,87 @@
+object JVEFormInterstitials: TJVEFormInterstitials
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  ClientHeight = 400
+  ClientWidth = 400
+  Position = Designed
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnPaint = FormPaint
+  DesignerMasterStyle = 0
+  object Shade: TRectangle
+    Align = Client
+    Fill.Color = x80000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    object Animation: TFloatAnimation
+      Duration = 0.250000000000000000
+      OnFinish = AnimationFinish
+      PropertyName = 'Opacity'
+      StartValue = 0.000000000000000000
+      StopValue = 1.000000000000000000
+    end
+    object Layout: TJVELayout
+      Align = Client
+      HitTest = True
+      Size.Width = 400.000000000000000000
+      Size.Height = 400.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnClick = LayoutClick
+      Columns = <
+        item
+          Divider = True
+        end
+        item
+          Shares = 3
+        end
+        item
+        end>
+      Rows = <
+        item
+          Divider = True
+        end
+        item
+          Shares = 10
+        end
+        item
+          Divider = True
+        end>
+      object Image: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Align = Fit
+        Size.Width = 240.000000000000000000
+        Size.Height = 240.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Stretch
+        OnClick = ImageClick
+        object Shadow: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+      end
+      object Cancel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Size.Width = 80.000000000000000000
+        Size.Height = 334.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 80.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        TextSettings.VertAlign = Leading
+        Text = #8855
+        TabOrder = 2
+      end
+    end
+  end
+end

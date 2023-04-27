@@ -1,0 +1,183 @@
+This file is a convinience: Delphi XE4 and on have a bug of forgetting the resources.
+Since each resource has to be manually renamed, it's much easier to manually
+copy/paste these into correct files and places.
+
+dclJVEsoft.dproj
+~~~~~~~~~~~~~~~~
+        <RcItem Include="ComponentIcons\TJVEAdMob.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEADMOB</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEAdMobInterstitial.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEADMOBINTERSTITIAL</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEAnalytics.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEANALYTICS</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEAnalyticsForVCL.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEANALYTICSFORVCL</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEAppFlood.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEAPPFLOOD</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEAppStore.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEAPPSTORE</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEAppRater.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEAPPRATER</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEBanners.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEBANNERS</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEBrowser.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEBROWSER</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEChartBoost.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVECHARTBOOST</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEConfiguration.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVECONFIGURATION</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVECustomAd.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVECUSTOMAD</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEEmail.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEEMAIL</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEInterstitials.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEINTERSTITIALS</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVELayout.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVELAYOUT</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEMobFox.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEMOBFOX</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVENativeAd.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVENATIVEAD</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVENativeImage.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVENATIVEIMAGE</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVENativeLabel.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVENATIVELABEL</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEOpenURL.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEOPENURL</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEPayment.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEPAYMENT</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEPubNative.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEPUBNATIVE</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEPushNotification.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEPUSHNOTIFICATION</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEPushWoosh.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEPUSHWOOSH</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVERevMob.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVEREVMOB</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVEShade.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVESHADE</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVESocial.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVESOCIAL</ResourceId>
+        </RcItem>
+        <RcItem Include="ComponentIcons\TJVESpan.bmp">
+            <ResourceType>BITMAP</ResourceType>
+            <ResourceId>TJVESPAN</ResourceId>
+        </RcItem>
+
+
+dclJVEsoft.dproj.local
+~~~~~~~~~~~~~~~~~~~~~~
+    <File Path="Icons"/>
+    <File Path="ComponentIcons\TJVEAdMob.bmp"/>
+    <File Path="ComponentIcons\TJVEAdMobInterstitial.bmp"/>
+    <File Path="ComponentIcons\TJVEAnalytics.bmp"/>
+    <File Path="ComponentIcons\TJVEAnalyticsForVCL.bmp"/>
+    <File Path="ComponentIcons\TJVEAppFlood.bmp"/>
+    <File Path="ComponentIcons\TJVEAppStore.bmp"/>
+    <File Path="ComponentIcons\TJVEAppRater.bmp"/>
+    <File Path="ComponentIcons\TJVEBanners.bmp"/>
+    <File Path="ComponentIcons\TJVEBrowser.bmp"/>
+    <File Path="ComponentIcons\TJVEConfiguration.bmp"/>
+    <File Path="ComponentIcons\TJVEChartBoost.bmp"/>
+    <File Path="ComponentIcons\TJVECustomAd.bmp"/>
+    <File Path="ComponentIcons\TJVEEmail.bmp"/>
+    <File Path="ComponentIcons\TJVEInterstitials.bmp"/>
+    <File Path="ComponentIcons\TJVELayout.bmp"/>
+    <File Path="ComponentIcons\TJVEMobFox.bmp"/>
+    <File Path="ComponentIcons\TJVENativeAd.bmp"/>
+    <File Path="ComponentIcons\TJVENativeImage.bmp"/>
+    <File Path="ComponentIcons\TJVENativeLabel.bmp"/>
+    <File Path="ComponentIcons\TJVEOpenURL.bmp"/>
+    <File Path="ComponentIcons\TJVEPayment.bmp"/>
+    <File Path="ComponentIcons\TJVEPubNative.bmp"/>
+    <File Path="ComponentIcons\TJVEPushNotification.bmp"/>
+    <File Path="ComponentIcons\TJVEPushWoosh.bmp"/>
+    <File Path="ComponentIcons\TJVERevMob.bmp"/>
+    <File Path="ComponentIcons\TJVEShade.bmp"/>
+    <File Path="ComponentIcons\TJVESocial.bmp"/>
+    <File Path="ComponentIcons\TJVESpan.bmp"/>
+
+
+dclJVEsoftResource.rc
+~~~~~~~~~~~~~~~~~~~~~
+TJVEADMOB BITMAP "ComponentIcons\\TJVEAdMob.bmp"
+TJVEADMOBINTERSTITIAL BITMAP "ComponentIcons\\TJVEAdMobInterstitial.bmp"
+TJVEANALYTICS BITMAP "ComponentIcons\\TJVEAnalytics.bmp"
+TJVEANALYTICSFORVCL BITMAP "ComponentIcons\\TJVEAnalyticsForVCL.bmp"
+TJVEAPPSTORE BITMAP "ComponentIcons\\TJVEAppFlood.bmp"
+TJVEAPPSTORE BITMAP "ComponentIcons\\TJVEAppStore.bmp"
+TJVEAPPRATER BITMAP "ComponentIcons\\TJVEAppRater.bmp"
+TJVEBANNERS BITMAP "ComponentIcons\\TJVEBanners.bmp"
+TJVEBROWSER BITMAP "ComponentIcons\\TJVEBrowser.bmp"
+TJVECHARTBOOST BITMAP "ComponentIcons\\TJVEChartBoost.bmp"
+TJVECONFIGURATION BITMAP "ComponentIcons\\TJVEConfiguration.bmp"
+TJVECUSTOMAD BITMAP "ComponentIcons\\TJVECustomAd.bmp"
+TJVEEMAIL BITMAP "ComponentIcons\\TJVEEmail.bmp"
+TJVEINTERSTITIALS BITMAP "ComponentIcons\\TJVEInterstitials.bmp"
+TJVELAYOUT BITMAP "ComponentIcons\\TJVELayout.bmp"
+TJVEMOBFOX BITMAP "ComponentIcons\\TJVEMobFox.bmp"
+TJVENATIVEAD BITMAP "ComponentIcons\\TJVENativeAd.bmp"
+TJVENATIVEIMAGE BITMAP "ComponentIcons\\TJVENativeImage.bmp"
+TJVENATIVELABEL BITMAP "ComponentIcons\\TJVENativeLabel.bmp"
+TJVEOPENURL BITMAP "ComponentIcons\\TJVEOpenURL.bmp"
+TJVEPAYMENT BITMAP "ComponentIcons\\TJVEPayment.bmp"
+TJVEPUBNATIVE BITMAP "ComponentIcons\\TJVEPubNative.bmp"
+TJVEPUSHNOTIFICATION BITMAP "ComponentIcons\\TJVEPushNotification.bmp"
+TJVEPUSHWOOSH BITMAP "ComponentIcons\\TJVEPushWoosh.bmp"
+TJVEREVMOB BITMAP "ComponentIcons\\TJVERevMob.bmp"
+TJVESHADE BITMAP "ComponentIcons\\TJVEShade.bmp"
+TJVESOCIAL BITMAP "ComponentIcons\\TJVESocial.bmp"
+TJVESPAN BITMAP "ComponentIcons\\TJVESpan.bmp"

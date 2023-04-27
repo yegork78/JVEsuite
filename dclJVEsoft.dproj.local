@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.718,=Z:\JVE soft\Delphi\Suite\Full\JVE.Analytics.VCL.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.383,Z:\Windows\Delphi\Components\JVE.Register.pas=</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.681,=Z:\Windows\Delphi\Components\JVE.Register.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.598,Z:\Windows\Delphi\Components\JVE.Register.pas=</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.411,=IndyCore.dcp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.396,=fmx.dcp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.391,=vclie.dcp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.909,=Z:\Windows\Delphi\JVE Suite\ComponentIcons\TJVEAppFlood.bmp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.708,Z:\Windows\Delphi\Components\dclJVEsoft.dproj=C:\Users\User\Documents\RAD Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.417,=JVEsoft.dcp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.630,=Z:\JVE soft\Delphi\JVE Suite\JVE.RegConfigEdit.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.959,=Z:\JVE soft\Delphi\JVE Suite\ComponentIcons\TJVEAdMobInterstitial.bmp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.092,=designide.dcp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.407,=IndyProtocols.dcp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.201,=Z:\Windows\Delphi\Components\JVE.Register.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.850,=Z:\Windows\Delphi\Components\JVE.Register.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.565,=rtl.dcp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.402,=IndySystem.dcp</Transaction>
+    <Transaction>2020/06/02 00:31:21.000.201,=Z:\JVE soft\Delphi\Suite\Full\ComponentIcons\TJVEFacebookInterstitial.bmp</Transaction>
+    <Transaction>2020/06/02 00:31:21.000.155,=Z:\JVE soft\Delphi\Suite\Full\ComponentIcons\TJVEFacebookBanner.bmp</Transaction>
+  </Transactions>
+</BorlandProject>

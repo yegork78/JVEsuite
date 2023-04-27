@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/12/09 23:51:36.000.191,=C:\Users\Yegor Kurbachev\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/12/09 23:52:14.000.409,Z:\JVE soft\Delphi\Suite\Full\DemoApp\Demo.dproj=C:\Users\Yegor Kurbachev\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>2019/12/09 23:52:22.000.956,=Z:\JVE soft\Delphi\Suite\Full\DemoApp\MainWnd.pas</Transaction>
+    <Transaction>2020/06/11 23:18:30.000.188,=Z:\JVE soft\Delphi\Suite\Full\jve-chartboost.jar</Transaction>
+    <Transaction>2020/06/11 23:18:30.000.172,=Z:\JVE soft\Delphi\Suite\Full\audience-network.jar</Transaction>
+    <Transaction>2020/06/11 23:18:30.000.188,=Z:\JVE soft\Delphi\Suite\Full\chartboost.jar</Transaction>
+    <Transaction>2021/03/02 01:20:48.000.883,Z:\JVEsoft\Delphi\Suite\Full\chartboost.jar=</Transaction>
+    <Transaction>2021/03/02 01:24:37.000.492,=Z:\JVEsoft\Delphi\Suite\Full\chartboost.jar</Transaction>
+    <Transaction>2021/03/02 01:26:02.000.929,Z:\JVEsoft\Delphi\Suite\Full\chartboost.jar=</Transaction>
+    <Transaction>2021/03/02 01:26:52.000.165,=Z:\JVEsoft\Delphi\Suite\Full\chartboost.jar</Transaction>
+    <Transaction>2021/10/16 16:15:06.000.616,=Z:\JVEsoft\Delphi\Suite\Full\jve-admob.jar</Transaction>
+    <Transaction>2021/10/16 18:06:12.000.999,Z:\JVEsoft\Delphi\Suite\Full\chartboost.jar=</Transaction>
+    <Transaction>2021/10/16 18:09:11.000.934,=Z:\JVEsoft\Delphi\Suite\Full\chartboost.jar</Transaction>
+    <Transaction>2022/05/28 21:08:44.000.613,Z:\JVEsoft\Delphi\Suite\Full\audience-network.jar=</Transaction>
+    <Transaction>2022/05/28 21:08:44.000.691,Z:\JVEsoft\Delphi\Suite\Full\jve-admob.jar=</Transaction>
+    <Transaction>2022/05/28 21:08:44.000.706,Z:\JVEsoft\Delphi\Suite\Full\jve-chartboost.jar=</Transaction>
+    <Transaction>2022/05/28 21:08:44.000.675,Z:\JVEsoft\Delphi\Suite\Full\chartboost.jar=</Transaction>
+    <Transaction>2022/05/28 21:08:54.000.378,=Z:\JVEsoft\Delphi\Suite\Full\jve-admob.jar</Transaction>
+    <Transaction>2022/05/28 21:08:54.000.222,=Z:\JVEsoft\Delphi\Suite\Full\audience-network.jar</Transaction>
+    <Transaction>2022/05/28 21:08:54.000.457,=Z:\JVEsoft\Delphi\Suite\Full\jve-chartboost.jar</Transaction>
+    <Transaction>2022/05/28 21:08:54.000.300,=Z:\JVEsoft\Delphi\Suite\Full\chartboost.jar</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>
+		<PMac iOSSimulator="iPhone5" iOSDevice64=""/>
+		<PMacbook iOSSimulator="_iossimulatornotsupported_D349338C-C82A-484C-B19A-9097CF7CBFB7" iOSDevice32="_iosdevice_d0483e5683b382bdb8d3c2a5fda5cdb649fc9053" iOSDevice64="_iosdevice_d0483e5683b382bdb8d3c2a5fda5cdb649fc9053"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

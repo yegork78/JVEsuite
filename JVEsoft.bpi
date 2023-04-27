@@ -1,0 +1,3 @@
+/* 'JVEsoft' Package */
+OUTPUT_FORMAT(macho-x86-64)
+GROUP ( bplJVEsoft270.dylib JVEsoft_nonshared.a )
