@@ -1,4 +1,5 @@
-# End of Live
+# JVEsuite by JVEsoft
+End of Live
 
 Sadly, I must say that piracy won.
 
